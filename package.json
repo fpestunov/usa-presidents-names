@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/fpestunov/usa-presidents-names/issues"
   },
-  "homepage": "https://github.com/fpestunov/usa-presidents-names#readme"
+  "homepage": "https://github.com/fpestunov/usa-presidents-names#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
 }
