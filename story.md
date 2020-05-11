@@ -41,3 +41,34 @@ lib.random
 ```
 
 ## 4. Pushing to GitHub
+
+## 5. Publishing to npm
+
+```sh
+npm publish
+```
+
+```sh
+mkdir proj & cd proj/
+npm info usa-presidents
+// теперь можно устанавливать
+npm i usa-presidents
+```
+
+create `index.js`
+
+```js
+let names = require("usa-presidents");
+
+console.log(names.all);
+console.log(names.random());
+console.log(names.random());
+```
+
+```sh
+node index.js
+```
+
+That is publishing our first module to NPM!
+
+npm.im/usa-presidents
