@@ -102,3 +102,10 @@ Process:
 - add tag, commit & push with tag
 - `npm publish --tag beta`
 - now i can install beta `npm install usa-presidents@beta`
+
+## 9. Setting up Unit Testing with Mocha and Chai
+
+- install Mocha and Chai `npm i -D mocha chai`
+  > `npm i -D` short for `install --save-dev`
+- settup testing and add test
+- `npm run test`
