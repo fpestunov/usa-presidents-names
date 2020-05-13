@@ -81,3 +81,17 @@ git push --tags
 ```
 
 Github / Repository / Releases / Draft a new release
+
+## 7. Releasing a new version to npm
+
+SemVer, A.B.C
+A - major changes, breaking API `all()`->`getAll()`
+B - minor changes
+C - patch release, bug fix
+
+Process:
+
+- make new version
+- change version in `package.json`
+- commit & push to github with `git tag`
+- `npm publish`
