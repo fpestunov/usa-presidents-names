@@ -95,3 +95,10 @@ Process:
 - change version in `package.json`
 - commit & push to github with `git tag`
 - `npm publish`
+
+## 8. Publishing a beta version
+
+- change version `"version": "1.1.0-beta.0"`
+- add tag, commit & push with tag
+- `npm publish --tag beta`
+- now i can install beta `npm install usa-presidents@beta`
