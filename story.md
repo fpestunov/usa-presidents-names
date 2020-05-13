@@ -72,3 +72,12 @@ node index.js
 That is publishing our first module to NPM!
 
 npm.im/usa-presidents
+
+## 6. Releasing a version to GitHub
+
+```sh
+git tag 1.0.0
+git push --tags
+```
+
+Github / Repository / Releases / Draft a new release
