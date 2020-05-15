@@ -109,3 +109,7 @@ Process:
   > `npm i -D` short for `install --save-dev`
 - settup testing and add test
 - `npm run test`
+
+## 10. Unit Testing with Mocha and Cha
+
+`npm t` - run test
